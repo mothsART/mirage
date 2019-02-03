@@ -1,0 +1,3 @@
+version=3
+opts=uversionmangle=s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha|b|a)\d*)$/$1~$2/,dversionmangle=s/(\d)(pre\d*)$/$1~$2/ \
+http://sf.net/mirageiv/mirage-(.+)\.tar\.(?:gz|bz2|xz)

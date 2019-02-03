@@ -1,0 +1,24 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/python-module.mk
+include /usr/share/cdbs/1/rules/patchsys-quilt.mk
+
+DEB_CONFIGURE_EXTRA_FLAGS := --no-compile --prefix $(DEB_DESTDIR)/usr --install-layout=deb
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+binary-install/mirage::
+	/usr/bin/python setup.py install $(DEB_CONFIGURE_EXTRA_FLAGS)
+	dh_python2 -pmirage
+	dh_installman debian/mirage.1
+	rm -f $(DEB_DESTDIR)/usr/share/mirage/COPYING
+	rm -f $(DEB_DESTDIR)/usr/share/mirage/README
+	rm -f $(DEB_DESTDIR)/usr/share/mirage/TODO
+	rm -f $(DEB_DESTDIR)/usr/share/mirage/CHANGELOG
+	mv $(DEB_DESTDIR)/usr/share/locale/ua $(DEB_DESTDIR)/usr/share/locale/uk
+
+configure/mirage::
+	python setup.py build
+
+clean::
+	/usr/bin/python setup.py clean

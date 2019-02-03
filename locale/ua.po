@@ -1,0 +1,1135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Максим aka Ma$terok, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Mirage 0.7.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-23 14:40+0200\n"
+"PO-Revision-Date: 2010-09-17 00:42+0300\n"
+"Last-Translator: Максим aka ma$terok\n"
+"Language-Team: Максим aka ma$terok\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Ukrainian\n"
+
+#: mirage.py:266
+msgid "_File"
+msgstr "_Файл"
+
+#: mirage.py:267
+msgid "_Edit"
+msgstr "П_равка"
+
+#: mirage.py:268
+msgid "_View"
+msgstr "Пере_гляд"
+
+#: mirage.py:269
+msgid "_Go"
+msgstr "П_ерехід"
+
+#: mirage.py:270
+msgid "_Help"
+msgstr "_Довідка"
+
+#: mirage.py:271
+msgid "Custom _Actions"
+msgstr "_Дії користувача"
+
+#: mirage.py:272
+msgid "_Open Image..."
+msgstr "_Відкрити зображення..."
+
+#: mirage.py:272
+msgid "Open Image"
+msgstr "Відкрити зображення"
+
+#: mirage.py:273
+msgid "Open _Remote image..."
+msgstr "_Відкрити віддалене зображення..."
+
+#: mirage.py:273
+msgid "Open Remote Image"
+msgstr "Відкрити віддалене зображення"
+
+#: mirage.py:274
+msgid "Open _Folder..."
+msgstr "Відкрити _каталог..."
+
+#: mirage.py:274
+msgid "Open Folder"
+msgstr "Відкрити каталог"
+
+#: mirage.py:275
+msgid "_Save Image"
+msgstr "_Зберегти зображення"
+
+#: mirage.py:275
+msgid "Save Image"
+msgstr "Зберегти зображення"
+
+#: mirage.py:276
+msgid "Save Image _As..."
+msgstr "Зберегти як..."
+
+#: mirage.py:276
+msgid "Save Image As"
+msgstr "Зберегти як"
+
+#: mirage.py:277
+msgid "_Crop..."
+msgstr "_Обрізати..."
+
+#: mirage.py:277
+#: mirage.py:3343
+msgid "Crop Image"
+msgstr "Обрізати"
+
+#: mirage.py:278
+msgid "R_esize..."
+msgstr "_Змінити розмір..."
+
+#: mirage.py:278
+#: mirage.py:3588
+msgid "Resize Image"
+msgstr "Змінити розмір зображення"
+
+#: mirage.py:279
+msgid "_Saturation..."
+msgstr "Насиченіст_ь..."
+
+#: mirage.py:279
+msgid "Modify saturation"
+msgstr "Змінити насиченість"
+
+#: mirage.py:280
+msgid "_Quit"
+msgstr "_Вихід"
+
+#: mirage.py:280
+msgid "Quit"
+msgstr "Вихід"
+
+#: mirage.py:281
+msgid "_Previous Image"
+msgstr "_Попереднє зображення"
+
+#: mirage.py:281
+#: mirage.py:321
+#: mirage.py:323
+#: mirage.py:325
+msgid "Previous Image"
+msgstr "Попереднє зображення"
+
+#: mirage.py:282
+msgid "_Next Image"
+msgstr "_Наступне зображення"
+
+#: mirage.py:282
+#: mirage.py:313
+#: mirage.py:322
+#: mirage.py:324
+msgid "Next Image"
+msgstr "Наступне зображення"
+
+#: mirage.py:283
+msgid "_Previous"
+msgstr "_Попереднє"
+
+#: mirage.py:283
+msgid "Previous"
+msgstr "Попереднє"
+
+#: mirage.py:284
+msgid "_Next"
+msgstr "_Наступне"
+
+#: mirage.py:284
+msgid "Next"
+msgstr "Наступне"
+
+#: mirage.py:285
+msgid "_Random Image"
+msgstr "_Випадкове зображення"
+
+#: mirage.py:285
+msgid "Random Image"
+msgstr "Випадкове зображення"
+
+#: mirage.py:286
+msgid "_First Image"
+msgstr "П_ерше зображення"
+
+#: mirage.py:286
+msgid "First Image"
+msgstr "Перше зображення"
+
+#: mirage.py:287
+msgid "_Last Image"
+msgstr "О_станнє зображення"
+
+#: mirage.py:287
+msgid "Last Image"
+msgstr "Останнє зображення"
+
+#: mirage.py:288
+msgid "Zoom _In"
+msgstr "З_більшити"
+
+#: mirage.py:288
+#: mirage.py:311
+#: mirage.py:312
+#: mirage.py:317
+#: mirage.py:327
+msgid "Zoom In"
+msgstr "Збільшити"
+
+#: mirage.py:289
+msgid "Zoom _Out"
+msgstr "З_меншити"
+
+#: mirage.py:289
+#: mirage.py:310
+#: mirage.py:316
+#: mirage.py:328
+msgid "Zoom Out"
+msgstr "Зменшити"
+
+#: mirage.py:290
+msgid "Zoom To _Fit"
+msgstr "Збільшити до розміру вікна"
+
+#: mirage.py:290
+#: mirage.py:314
+#: mirage.py:318
+msgid "Fit"
+msgstr "До розміру вікна"
+
+#: mirage.py:291
+msgid "_1:1"
+msgstr "_1:1"
+
+#: mirage.py:291
+#: mirage.py:315
+#: mirage.py:319
+#: mirage.py:326
+msgid "1:1"
+msgstr "1:1"
+
+#: mirage.py:292
+msgid "Rotate _Left"
+msgstr "Повернути _ліворуч"
+
+#: mirage.py:292
+msgid "Rotate Left"
+msgstr "Повернути ліворуч"
+
+#: mirage.py:293
+msgid "Rotate _Right"
+msgstr "Повернути _праворуч"
+
+#: mirage.py:293
+msgid "Rotate Right"
+msgstr "Повернути праворуч"
+
+#: mirage.py:294
+msgid "Flip _Vertically"
+msgstr "Відобразити _вертикально"
+
+#: mirage.py:294
+msgid "Flip Vertically"
+msgstr "Відобразити вертикально"
+
+#: mirage.py:295
+msgid "Flip _Horizontally"
+msgstr "Відобразити _горизонтально"
+
+#: mirage.py:295
+msgid "Flip Horizontally"
+msgstr "Відобразити горизонтально"
+
+#: mirage.py:296
+msgid "_About"
+msgstr "Про Прогр_аму"
+
+#: mirage.py:296
+msgid "About"
+msgstr "Про програму"
+
+#: mirage.py:297
+msgid "_Contents"
+msgstr "Вмі_ст"
+
+#: mirage.py:297
+msgid "Contents"
+msgstr "Вміст"
+
+#: mirage.py:298
+msgid "_Preferences..."
+msgstr "На_лаштування..."
+
+#: mirage.py:298
+msgid "Preferences"
+msgstr "Налаштування"
+
+#: mirage.py:299
+msgid "_Full Screen"
+msgstr "Повно_екранний режим"
+
+#: mirage.py:299
+msgid "Full Screen"
+msgstr "Повноекранний режим"
+
+#: mirage.py:300
+msgid "E_xit Full Screen"
+msgstr "Вийти _з повноекранного режиму"
+
+#: mirage.py:300
+#: mirage.py:309
+msgid "Exit Full Screen"
+msgstr "Вийти з повноекранного режиму"
+
+#: mirage.py:301
+msgid "_Start Slideshow"
+msgstr "Почати перегляд _слайдів"
+
+#: mirage.py:301
+msgid "Start Slideshow"
+msgstr "Почати перегляд слайдів"
+
+#: mirage.py:302
+msgid "_Stop Slideshow"
+msgstr "_Зупинити перегляд слайдів"
+
+#: mirage.py:302
+msgid "Stop Slideshow"
+msgstr "Зупинити перегляд слайдів"
+
+#: mirage.py:303
+msgid "_Delete..."
+msgstr "Ви_далити..."
+
+#: mirage.py:303
+#: mirage.py:2874
+msgid "Delete Image"
+msgstr "Видалити зображення"
+
+#: mirage.py:304
+msgid "Re_name..."
+msgstr "Пе_рейменувати..."
+
+#: mirage.py:304
+#: mirage.py:2807
+msgid "Rename Image"
+msgstr "Перейменувати зображення"
+
+#: mirage.py:305
+msgid "_Take Screenshot..."
+msgstr "Зняти _скріншот"
+
+#: mirage.py:305
+msgid "Take Screenshot"
+msgstr "Зняти скріншот"
+
+#: mirage.py:306
+msgid "_Properties..."
+msgstr "Властивост_і..."
+
+#: mirage.py:306
+#: mirage.py:2397
+msgid "Properties"
+msgstr "Властивості"
+
+#: mirage.py:307
+msgid "_Configure..."
+msgstr "_Налаштувати..."
+
+#: mirage.py:307
+msgid "Custom Actions"
+msgstr "Дії корстувача"
+
+#: mirage.py:331
+msgid "_Status Bar"
+msgstr "Рядок _стану"
+
+#: mirage.py:331
+msgid "Status Bar"
+msgstr "Рядок стану"
+
+#: mirage.py:332
+msgid "_Toolbar"
+msgstr "Панель _інструментів"
+
+#: mirage.py:332
+msgid "Toolbar"
+msgstr "Панель інструментів"
+
+#: mirage.py:333
+msgid "Thumbnails _Pane"
+msgstr "Панель _мініатюр"
+
+#: mirage.py:333
+msgid "Thumbnails Pane"
+msgstr "Панель мініатюр"
+
+#: mirage.py:1057
+#, python-format
+msgid "Couldn't find the image %s. Please check your installation."
+msgstr "Не вдалося знайти зображення %s. Будь-ласка, перевірте правильність встановлення."
+
+#: mirage.py:1278
+#, python-format
+msgid "Action: %s"
+msgstr "Дія: %s"
+
+#: mirage.py:1281
+#, python-format
+msgid "Action return code: %s"
+msgstr "Код поверення дії: %s"
+
+#: mirage.py:1283
+#, python-format
+msgid "Unable to launch \"%s\". Please specify a valid command from Edit > Custom Actions."
+msgstr "Неможливо запустити \"%s\". Вкажіть будь-ласка вірну команду для Правка > Дії користувача."
+
+#: mirage.py:1285
+#: mirage.py:2140
+#: mirage.py:2175
+msgid "Invalid Custom Action"
+msgstr "Невірні дії користувача"
+
+#: mirage.py:1410
+msgid "Version: Mirage"
+msgstr "Версія: Mirage"
+
+#: mirage.py:1411
+msgid "Website: http://mirageiv.berlios.de"
+msgstr "Сайт: http://mirageiv.berlios.de"
+
+#: mirage.py:1416
+msgid "Usage: mirage [OPTION]... FILES|FOLDERS..."
+msgstr "Використання: mirage [OPTION]... FILES|FOLDERS..."
+
+#: mirage.py:1418
+msgid "Options"
+msgstr "Налаштування"
+
+#: mirage.py:1419
+msgid "Show this help and exit"
+msgstr "Показати цю довідку і вийти"
+
+#: mirage.py:1420
+msgid "Show version information and exit"
+msgstr "-v, --version               Показати версію і вийти"
+
+#: mirage.py:1421
+msgid "Show more detailed information"
+msgstr "-V, --verbose               Показати більш докладну інформацію"
+
+#: mirage.py:1422
+msgid "Recursively include all images found in"
+msgstr "-R, --recursive               Рекурсивно включати всі зображення, знайдені в"
+
+#: mirage.py:1423
+msgid "subdirectories of FOLDERS"
+msgstr "підкаталогах папок"
+
+#: mirage.py:1424
+msgid "Start in slideshow mode"
+msgstr "Почати перегляд слайдів"
+
+#: mirage.py:1425
+msgid "Start in fullscreen mode"
+msgstr "Запустити показ у повноекранному режимі"
+
+#: mirage.py:1426
+msgid "Execute 'cmd' when an image is loaded"
+msgstr "Виконати 'cmd' коли зображення завантажується"
+
+#: mirage.py:1427
+msgid "uses same syntax as custom actions,"
+msgstr "використовує той же синтаксис, що і дії користувача,"
+
+#: mirage.py:1428
+msgid "i.e. mirage -o 'echo file is %F'"
+msgstr "i.e. mirage -o 'echo file is %F'"
+
+#: mirage.py:1664
+msgid "Save As"
+msgstr "Зберегти як"
+
+#: mirage.py:1705
+#, python-format
+msgid "The %s format is not supported for saving. Do you wish to save the file in a different format?"
+msgstr "%s не підтримує цей формат для збереження. Ви хочете зберегти файл в іншому форматі?"
+
+#: mirage.py:1706
+#: mirage.py:1717
+msgid "Save"
+msgstr "Зберегти"
+
+#: mirage.py:1716
+#, python-format
+msgid "Unable to save %s"
+msgstr "Неможливо видалити  %s"
+
+#: mirage.py:1733
+msgid "The current image has been modified. Save changes?"
+msgstr "Поточне зображення було змінено. Зберегти зміни?"
+
+#: mirage.py:1737
+msgid "Save?"
+msgstr "Зберегти?"
+
+#: mirage.py:1775
+msgid "Open Remote"
+msgstr "Открыть изображение"
+
+#: mirage.py:1780
+msgid "Image Location (URL):"
+msgstr "Розташування зображення (URL):"
+
+#: mirage.py:1811
+msgid "Open"
+msgstr "Відкрити"
+
+#: mirage.py:1814
+msgid "Images"
+msgstr "Зображення"
+
+#: mirage.py:1818
+msgid "All files"
+msgstr "Усі файли"
+
+#: mirage.py:1828
+msgid "Include images in subdirectories"
+msgstr "Включати файли у підкаталогах"
+
+#: mirage.py:1983
+msgid "Cannot load image."
+msgstr "Неможливо завантажити зображення."
+
+#: mirage.py:1987
+#, python-format
+msgid "Custom actions: %(current)i of  %(total)i"
+msgstr "Дії користувача: %(current)i of  %(total)i"
+
+#: mirage.py:1989
+msgid "Scanning..."
+msgstr "Сканування..."
+
+#: mirage.py:1993
+msgid "Configure Custom Actions"
+msgstr "Налаштувати дії користувача"
+
+#: mirage.py:2011
+msgid "Batch"
+msgstr "Пакет"
+
+#: mirage.py:2012
+msgid "Action"
+msgstr "Дія"
+
+#: mirage.py:2013
+msgid "Shortcut"
+msgstr "Ярлик"
+
+#: mirage.py:2025
+msgid "Add action"
+msgstr "Додати дію"
+
+#: mirage.py:2029
+msgid "Edit selected action."
+msgstr "Змінити вибрані дії."
+
+#: mirage.py:2033
+msgid "Remove selected action."
+msgstr "Видалити вибрані дії."
+
+#: mirage.py:2037
+msgid "Move selected action up."
+msgstr "Перемістити вибрані дії вгору"
+
+#: mirage.py:2041
+msgid "Move selected action down."
+msgstr "Перемістити вибрані дії вниз"
+
+#: mirage.py:2044
+msgid "Parameters"
+msgstr "Параметри"
+
+#: mirage.py:2044
+msgid "File path, name, and extension"
+msgstr "Шлях до файлу, ім'я та розширення"
+
+#: mirage.py:2044
+msgid "File path"
+msgstr "Шлях до файлу"
+
+#: mirage.py:2044
+msgid "File name without file extension"
+msgstr "Ім'я файлу без розширення"
+
+#: mirage.py:2044
+msgid "File extension (i.e. \".png\")"
+msgstr "Розширення файлу (тобто \".png\")"
+
+#: mirage.py:2044
+msgid "List of files, space-separated"
+msgstr "Список файлів, розділених пробілами"
+
+#: mirage.py:2047
+msgid "Operations"
+msgstr "Операції"
+
+#: mirage.py:2047
+msgid "Go to next image"
+msgstr "Наступне зображення"
+
+#: mirage.py:2047
+msgid "Go to previous image"
+msgstr "Попереднє зображення"
+
+#: mirage.py:2066
+msgid "Here you can define custom actions with shortcuts. Actions use the built-in parameters and operations listed below and can have multiple statements separated by a semicolon. Batch actions apply to all images in the list."
+msgstr "Тут ви можете задати дії користувача з ярликами. Будуть використані вбудовані параметри і дії, що перераховані нижче і можуть мати кілька завдань розділених крапкою з комою. Пакет дії застосовується до усього списку зображень."
+
+#: mirage.py:2102
+msgid "Add Custom Action"
+msgstr "Додати дії користувача"
+
+#: mirage.py:2104
+msgid "Edit Custom Action"
+msgstr "Редагувати дії користувача"
+
+#: mirage.py:2107
+msgid "Action Name:"
+msgstr "Назва дії"
+
+#: mirage.py:2109
+msgid "Command:"
+msgstr "Команда:"
+
+#: mirage.py:2111
+msgid "Shortcut:"
+msgstr "Ярлик:"
+
+#: mirage.py:2125
+msgid "Perform action on all images (Batch)"
+msgstr "Виконати дію на всіх зображеннях (Пакет)"
+
+#: mirage.py:2139
+msgid "[PREV] and [NEXT] are only valid alone or at the end of the command"
+msgstr "[PREV] and [NEXT] are only valid alone or at the end of the command"
+
+#: mirage.py:2174
+msgid "Incomplete custom action specified."
+msgstr "Неповністю зазначена дія користувача."
+
+#: mirage.py:2252
+msgid "Action Shortcut"
+msgstr "Ярлик дії"
+
+#: mirage.py:2253
+msgid "Press the desired shortcut for the action."
+msgstr "Натисніть бажаний ярлик для дії."
+
+#: mirage.py:2270
+#: mirage.py:2277
+#, python-format
+msgid "The shortcut '%(shortcut)s' is already used for '%(key)s'."
+msgstr "Ярлик '%(shortcut)s' вже використовується для '%(key)s'."
+
+#: mirage.py:2271
+#: mirage.py:2278
+msgid "Invalid Shortcut"
+msgstr "Невірний ярлик"
+
+#: mirage.py:2320
+msgid "Screenshot"
+msgstr "Скріншот"
+
+#: mirage.py:2321
+msgid "_Snap"
+msgstr "Кла_цнути"
+
+#: mirage.py:2326
+msgid "Location"
+msgstr "Розташування"
+
+#: mirage.py:2329
+msgid "Entire screen"
+msgstr "На весь екран"
+
+#: mirage.py:2330
+msgid "Window under pointer"
+msgstr "Вікно під курсором"
+
+#: mirage.py:2335
+msgid "Delay"
+msgstr "Затримка"
+
+#: mirage.py:2343
+msgid " seconds"
+msgstr " секунд"
+
+#: mirage.py:2411
+msgid "File name:"
+msgstr "Ім'я файлу:"
+
+#: mirage.py:2413
+msgid "File modified:"
+msgstr "Файл змінено:"
+
+#: mirage.py:2415
+msgid "Dimensions:"
+msgstr "Розміри:"
+
+#: mirage.py:2417
+msgid "File size:"
+msgstr "Розмір файлу:"
+
+#: mirage.py:2419
+msgid "File type:"
+msgstr "Тип файлу:"
+
+#: mirage.py:2421
+msgid "Transparency:"
+msgstr "Прозорість:"
+
+#: mirage.py:2423
+msgid "Animation:"
+msgstr "Анімація:"
+
+#: mirage.py:2425
+msgid "Bits per sample:"
+msgstr "Бітів у зразку:"
+
+#: mirage.py:2427
+msgid "Channels:"
+msgstr "Канали:"
+
+#: mirage.py:2446
+#: mirage.py:2452
+#: mirage.py:2623
+msgid "Yes"
+msgstr "Так"
+
+#: mirage.py:2448
+#: mirage.py:2450
+#: mirage.py:2622
+msgid "No"
+msgstr "Ні"
+
+#: mirage.py:2487
+msgid "Mirage Preferences"
+msgstr "Параметри Mirage"
+
+#: mirage.py:2493
+#: mirage.py:2727
+msgid "Interface"
+msgstr "Інтерфейс"
+
+#: mirage.py:2496
+msgid "Background color:"
+msgstr "Колір фону:"
+
+#: mirage.py:2500
+msgid "Sets the background color for the application."
+msgstr "Встановлює колір фону для програми"
+
+#: mirage.py:2506
+msgid "Simple background color:"
+msgstr "Простий колір фону:"
+
+#: mirage.py:2515
+msgid "Open Mirage in fullscreen mode"
+msgstr "Відкривати Mirage в повноекранному режимі"
+
+#: mirage.py:2518
+msgid "Thumbnail size:"
+msgstr "Розмір мініатюр:"
+
+#: mirage.py:2545
+msgid "Open Behavior"
+msgstr "Поведінка команди \"Відкрити\""
+
+#: mirage.py:2548
+msgid "Open new image in:"
+msgstr "Відкривати нове зображення в:"
+
+#: mirage.py:2550
+msgid "Smart Mode"
+msgstr "Кмітливий режим"
+
+#: mirage.py:2551
+msgid "Zoom To Fit Mode"
+msgstr "Пристосувати до вікна"
+
+#: mirage.py:2552
+msgid "1:1 Mode"
+msgstr "Режим 1:1"
+
+#: mirage.py:2553
+msgid "Last Active Mode"
+msgstr "Останній активний режим"
+
+#: mirage.py:2556
+msgid "Load all images in current directory"
+msgstr "Завантажувати всі зображення з поточного каталогу"
+
+#: mirage.py:2558
+msgid "If enabled, opening an image in Mirage will automatically load all images found in that image's directory."
+msgstr "При ввімкненні цієї функції всі зображення з поточного каталогу будуть завантажені автоматично."
+
+#: mirage.py:2559
+msgid "Allow loading hidden files"
+msgstr "Дозволити завантаження прихованих файлів"
+
+#: mirage.py:2561
+msgid "If checked, Mirage will open hidden files. Otherwise, hidden files will be ignored."
+msgstr "Якщо ввімкнено, Mirage буде відкривати приховані файли. Інакше приховані файли будуть ігноруватися."
+
+#: mirage.py:2563
+msgid "Use Numerical aware sort"
+msgstr "Використовувати числовий метод сортування"
+
+#: mirage.py:2565
+msgid "If checked, Mirage will sort the images based on a numerical aware sort."
+msgstr "Якщо ввімкнено, Mirage використовуватиме числовий метод сортування."
+
+#: mirage.py:2567
+msgid "Casesensitive sort"
+msgstr "Сортувати з урахуванням регістру"
+
+#: mirage.py:2569
+msgid "If checked, a case-sensitive sort will be used"
+msgstr "Якщо ввімкнено, то при сортуванні буде використовуватися врахування регістру"
+
+#: mirage.py:2574
+msgid "Use last chosen directory"
+msgstr "Використовувати останній вибраний каталог"
+
+#: mirage.py:2575
+msgid "The default 'Open' directory will be the last directory used."
+msgstr "Останній відкритий каталог, буде каталогом за замовчуванням."
+
+#: mirage.py:2576
+msgid "Use this fixed directory:"
+msgstr "Використовувати вибраний каталог:"
+
+#: mirage.py:2578
+msgid "The default 'Open' directory will be this specified directory."
+msgstr "Вказаний каталог завжди буде каталогом за замовчуванням."
+
+#: mirage.py:2614
+#: mirage.py:2726
+msgid "Navigation"
+msgstr "Навігація"
+
+#: mirage.py:2616
+msgid "Preload images for faster navigation"
+msgstr "Попереднє завантаження зображень для швидкої навігації"
+
+#: mirage.py:2618
+msgid "If enabled, the next and previous images in the list will be preloaded during idle time. Note that the speed increase comes at the expense of memory usage, so it is recommended to disable this option on machines with limited ram."
+msgstr "Якщо ввімкнено, попереднє і наступне зображення у списку будуть попередньо завантажені під час простою. Зважте, що швидкість зростає за рахунок використання пам'яті, тому на машинах з невеликим об'ємом пам'яті, цю функцію рекомендується відключити."
+
+#: mirage.py:2620
+msgid "Wrap around imagelist:"
+msgstr "По закінченню списку, переходити на початок:"
+
+#: mirage.py:2624
+msgid "Prompt User"
+msgstr "Підказки користувачу"
+
+#: mirage.py:2643
+#: mirage.py:4587
+msgid "Slideshow Mode"
+msgstr "Режим слайд-шоу"
+
+#: mirage.py:2646
+msgid "Delay between images in seconds:"
+msgstr "Затримка між зображеннями у секундах:"
+
+#: mirage.py:2651
+msgid "Randomize order of images"
+msgstr "Випадковий порядок зображень"
+
+#: mirage.py:2653
+msgid "If enabled, a random image will be chosen during slideshow mode (without loading any image twice)."
+msgstr "Якщо ввімкнено, то для показу в режимі слайд-шоу будуть вибиратися випадкові зображення (зображення дублюватися не будуть)."
+
+#: mirage.py:2654
+msgid "Disable screensaver in slideshow mode"
+msgstr "Відключити хранителя екрану в режимі слайд-шоу"
+
+#: mirage.py:2656
+msgid "If enabled, xscreensaver will be temporarily disabled during slideshow mode."
+msgstr "Якщо ввімкнено, то хранитель екрану буде тимчасово заблокований"
+
+#: mirage.py:2657
+msgid "Always start in fullscreen mode"
+msgstr "Завжди запускати в повноекранному режимі"
+
+#: mirage.py:2658
+msgid "If enabled, starting a slideshow will put the application in fullscreen mode."
+msgstr "Якщо ввімкнено, то режим слайд-шоу буде запускатися у повноекранному режимі."
+
+#: mirage.py:2676
+msgid "Image Editing"
+msgstr "Редагування зображення"
+
+#: mirage.py:2678
+msgid "Confirm image delete"
+msgstr "Підтвердьте видалення зображення"
+
+#: mirage.py:2682
+msgid "Scaling quality:"
+msgstr "Масштабування якості"
+
+#: mirage.py:2684
+msgid "Nearest (Fastest)"
+msgstr "Найближчий (Найшвидший)"
+
+#: mirage.py:2685
+msgid "Tiles"
+msgstr "Плитка"
+
+#: mirage.py:2686
+msgid "Bilinear"
+msgstr "Білінійне"
+
+#: mirage.py:2687
+msgid "Hyper (Best)"
+msgstr "Гіпер (Відмінно)"
+
+#: mirage.py:2693
+msgid "Modified images:"
+msgstr "Змінені зображення:"
+
+#: mirage.py:2695
+msgid "Ignore Changes"
+msgstr "Ігнорувати зміни"
+
+#: mirage.py:2696
+msgid "Auto-Save"
+msgstr "Автозбереження"
+
+#: mirage.py:2697
+msgid "Prompt For Action"
+msgstr "Підказки для дій"
+
+#: mirage.py:2703
+msgid "Quality to save in:"
+msgstr "Якість при збереженні:"
+
+#: mirage.py:2725
+msgid "Behavior"
+msgstr "Поведінка"
+
+#: mirage.py:2728
+msgid "Slideshow"
+msgstr "Слайди"
+
+#: mirage.py:2729
+msgid "Image"
+msgstr "Зображення"
+
+#: mirage.py:2813
+msgid "_Rename"
+msgstr "Пере_йменувати"
+
+#: mirage.py:2824
+msgid "Enter the new name:"
+msgstr "Введіть нове ім'я:"
+
+#: mirage.py:2856
+#, python-format
+msgid "Unable to rename %s"
+msgstr "Неможливо перейменувати %s"
+
+#: mirage.py:2857
+msgid "Unable to rename"
+msgstr "Неможливо перейменувати"
+
+#: mirage.py:2876
+#, python-format
+msgid "Are you sure you wish to permanently delete %s?"
+msgstr "Ви впевнені, що хочете видалити %s?"
+
+#: mirage.py:2937
+#, python-format
+msgid "Unable to delete %s"
+msgstr "Неможливо видалити %s"
+
+#: mirage.py:2938
+msgid "Unable to delete"
+msgstr "Неможливо видалити"
+
+#: mirage.py:2946
+msgid "Choose directory"
+msgstr "Вибір каталогу"
+
+#: mirage.py:2994
+msgid "A fast GTK+ Image Viewer."
+msgstr "Швидкий переглядач зображень на GTK+."
+
+#: mirage.py:3036
+msgid "Unable to launch a suitable browser."
+msgstr "Неможливо запустити відповідний браузер."
+
+#: mirage.py:3344
+msgid "C_rop"
+msgstr "_Обрізати"
+
+#: mirage.py:3386
+#: mirage.py:3599
+msgid "Width:"
+msgstr "Висота:"
+
+#: mirage.py:3393
+#: mirage.py:3610
+msgid "Height:"
+msgstr "Ширина:"
+
+#: mirage.py:3539
+msgid "Saturation"
+msgstr "Насиченість"
+
+#: mirage.py:3540
+msgid "_Saturate"
+msgstr "Насиченіст_ь"
+
+#: mirage.py:3551
+msgid "Saturation level:"
+msgstr "Рівень насиченості:"
+
+#: mirage.py:3589
+msgid "_Resize"
+msgstr "_Змінити розмір"
+
+#: mirage.py:3603
+#: mirage.py:3615
+msgid "pixels"
+msgstr "пікселів"
+
+#: mirage.py:3617
+msgid "Preserve aspect ratio"
+msgstr "Зберігати співвідношення сторін"
+
+#: mirage.py:3758
+msgid "You are viewing the first image in the list. Wrap around to the last image?"
+msgstr "Ви переглядаєте перше зображення в списку. Перейти до останнього?"
+
+#: mirage.py:3760
+msgid "You are viewing the last image in the list. Wrap around to the first image?"
+msgstr "Ви переглядаєте останнє зображення в списку. Перейти до першого?"
+
+#: mirage.py:3762
+msgid "All images have been viewed. Would you like to cycle through the images again?"
+msgstr "Всі зображення проглянуто. Ви хочете проглянути список спочатку?"
+
+#: mirage.py:3763
+msgid "Wrap?"
+msgstr "Перейти на початок?"
+
+#: mirage.py:3862
+#: mirage.py:3975
+#: mirage.py:3992
+#: mirage.py:4055
+#: mirage.py:4349
+#, python-format
+msgid "Loading: %s"
+msgstr "Завантаження: %s"
+
+#: mirage.py:4136
+#: mirage.py:4188
+#, python-format
+msgid "Preloading: %s"
+msgstr "Попереднє завантаження: %s"
+
+#: mirage.py:4259
+#: mirage.py:4457
+#, python-format
+msgid "Skipping: %s"
+msgstr "Пропущено: %s"
+
+#: mirage.py:4316
+#, python-format
+msgid "Found: %(item)s [%(number)i]"
+msgstr "Знайдено: %(item)s [%(number)i]"
+
+#: mirage.py:4453
+#, python-format
+msgid "Found: %(fullpath)s [%(number)i]"
+msgstr "Знайдено: %(fullpath)s [%(number)i]"
+
+#: mirage.py:4585
+#, python-format
+msgid "[%(current)i of %(total)i]"
+msgstr "[%(current)i of %(total)i]"
+
+#, fuzzy
+#~ msgid "Fullscreen"
+#~ msgstr "Полноэкранный режим"
+#~ msgid "Unable to launch"
+#~ msgstr "Невозможно запустить"
+#~ msgid "of"
+#~ msgstr "из"
+
+#, fuzzy
+#~ msgid "Found"
+#~ msgstr "Найдено:"
+#~ msgid "seconds"
+#~ msgstr "секунд"
+#~ msgid "Use mousewheel for imagelist navigation"
+#~ msgstr "Использовать колесо мыши для смены изображения"
+#~ msgid ""
+#~ "If enabled, mousewheel-down (up) will go to the next (previous) image."
+#~ msgstr ""
+#~ "При включении этой функции изображения можно пролистывать с помощью "
+#~ "колеса мыши."
+#~ msgid "Do not ask again"
+#~ msgstr "Больше не спрашивать"
+#~ msgid "Open in _Editor"
+#~ msgstr "Открыть в _редакторе"
+#~ msgid "Open in Editor"
+#~ msgstr "Открыть в редакторе"
+#~ msgid "  -h, --help                   Show this help and exit"
+#~ msgstr "  -h, --help                   Показать справку"
+#~ msgid "  -s, --slideshow              Start in slideshow mode"
+#~ msgstr "  -s, --slideshow              Запускать в режиме показа слайдов"
+#~ msgid "  -f, --fullscreen             Start in fullscreen mode"
+#~ msgstr "  -f, --fullscreen             Запускать в полноэкранном режиме"
+#~ msgid "Zoom Quality"
+#~ msgstr "Качество масштабирования"
+#~ msgid "Fastest"
+#~ msgstr "Скорость"
+#~ msgid "Best"
+#~ msgstr "Качество"
+#~ msgid ""
+#~ "Smart mode uses 1:1 for images smaller than the window and Fit To Window "
+#~ "for images larger."
+#~ msgstr ""
+#~ "В смешанном режиме изображение открывается в режиме 1:1, если оно меньше "
+#~ "размера окна, или в режиме \"к размеру окна\", если оно больше окна."
+#~ msgid "External Image Editor"
+#~ msgstr "Внешний редактор изображений"
+#~ msgid ""
+#~ "The application specified below is used as the default editor. It is "
+#~ "assumed to be in the user's PATH or can be explicitly set (e.g., \"/usr/"
+#~ "bin/gimp-remote\")."
+#~ msgstr ""
+#~ "Приложение, указанное здесь, используется как редактор по умолчанию. Оно "
+#~ "может быть в пользовательской переменной PATH или указано в качестве "
+#~ "команды (например, \"/usr/bin/gimp-remote\")."
+#~ msgid "Editor"
+#~ msgstr "Редактор"
+#~ msgid "?"
+#~ msgstr "?"
+

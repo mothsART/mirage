@@ -1,0 +1,7 @@
+?package(mirage):\
+  needs="X11"\
+  section="Applications/Viewers"\
+  title="Mirage"\
+  longtitle="Mirage image viewer"\
+  command="mirage"\
+  icon="/usr/share/pixmaps/mirage.xpm"

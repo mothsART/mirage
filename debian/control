@@ -1,0 +1,33 @@
+Source: mirage
+Section: graphics
+Priority: optional
+Maintainer: Thomas Ross <th0m4sr0ss@gmail.com>
+Build-Depends: debhelper (>= 9),
+               cdbs (>= 0.4.51),
+               python-dev (>= 2.6),
+               python-gtk2-dev,
+               quilt,
+               dh-python
+Standards-Version: 3.9.6
+Homepage: http://mirageiv.sourceforge.net
+
+Package: mirage
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${python:Depends},
+         ${misc:Depends},
+         python-gtk2,
+         python-pyexiv2
+Suggests: gimp, imagemagick, menu
+Description: fast and simple GTK+ image viewer
+ Mirage is ideal for users who wish to keep their computers
+ lean while still having a clean image viewer.
+ .
+ Features:
+  * Supports png, jpg, svg, xpm, gif, bmp, tiff, and others
+  * Preloading to navigate faster through images (optional)
+  * Thumbnail pane for quick navigation
+  * Slideshow and fullscreen mode
+  * Rotating, zooming, flipping, resizing, and cropping
+  * Custom user actions
+  * Screenshot

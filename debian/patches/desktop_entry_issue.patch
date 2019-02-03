@@ -1,0 +1,14 @@
+Description: add Keywords in mirage.desktop.
+Author: Lucas de Castro Borges <lucascastroborges@gmail.com>
+Last-Update: 2015-07-14
+Index: mirage-0.9.5.1/mirage.desktop
+===================================================================
+--- mirage-0.9.5.1.orig/mirage.desktop
++++ mirage-0.9.5.1/mirage.desktop
+@@ -5,5 +5,6 @@ Exec=mirage %f
+ Terminal=false
+ Type=Application
+ Icon=mirage
++Keywords=Image;Viewer;Graphical;
+ Categories=GTK;Graphics;2DGraphics;Viewer;
+ MimeType=image/bmp;image/gif;image/jpeg;image/jpg;image/pjpeg;image/png;image/tiff;image/x-bmp;image/x-pcx;image/x-png;image/x-portable-anymap;image/x-portable-bitmap;image/x-portable-graymap;image/x-portable-pixmap;image/x-sun-raster;image/x-tga;image/x-xbitmap;image/x-xpixmap;image/svg+xml;

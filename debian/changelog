@@ -1,0 +1,196 @@
+mirage (0.9.5.2-1) unstable; urgency=medium
+
+  * New upstream release
+  * Save EXIF/XMP/IPTC data upon modification (Closes: #513025)
+  * Add an icon to the Debian menu
+  * debian/rules:
+      - Remove unnecessary line
+      - Improve hardening rules
+  * debian/control:
+      - Package adopted (Closes: #632989)
+      - Change priority from extra to optional
+      - Depend on python-pyexiv2
+
+ -- Thomas Ross <th0m4sr0ss@gmail.com>  Wed, 05 Aug 2015 22:19:28 -0400
+
+mirage (0.9.5.1-5) unstable; urgency=medium
+
+  * QA upload.
+  * debian/control: reorganized the Depends fields.
+  * debian/mirage.postinst: Fixed command exist checking.
+
+ -- Lucas de Castro Borges <lucascastroborges@gmail.com>  Fri, 17 Jul 2015 01:39:21 -0300
+
+mirage (0.9.5.1-4) unstable; urgency=low
+
+  * QA upload.
+  * New upstream Homepage. (closes: #773997)
+  * DH level updated to 9.
+  * debian/control
+      - Bumped Standards-Version to 3.9.6.
+      - dh-python added as Build-Depends.
+  * debian/patches/desktop_entry_issue.patch.
+      - Added to avoid desktop-entry-lacks-keywords-entry.
+  * debian/copyright
+      - format updated to 1.0.
+      - License updated to GPL-3+.
+  * debian/mirage.postinst
+      - Changed to avoid command-with-path-in-maintainer-script.
+  * debian/pycompat: removed.
+  * debian/watch: updated.
+
+ -- Lucas de Castro Borges <lucascastroborges@gmail.com>  Mon, 13 Jul 2015 00:37:11 -0300
+
+mirage (0.9.5.1-3) unstable; urgency=medium
+
+  * QA upload.
+  * Build using dh_python2
+
+ -- Matthias Klose <doko@debian.org>  Sun, 13 Jul 2014 15:43:46 +0000
+
+mirage (0.9.5.1-2) unstable; urgency=low
+
+  * QA upload.
+  * Maintainer field set to QA Group.
+  * Bump Standards-Version to 3.9.5.
+  * Remove debian/docs to avoid supplying CHANGELOG twice.
+
+ -- Emanuele Rocca <ema@debian.org>  Tue, 11 Mar 2014 15:39:22 +0100
+
+mirage (0.9.5.1-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Patch by Jakub Wilk to fix FTBFS with python 2.7 (closes: #628830).
+
+ -- Julien Cristau <jcristau@debian.org>  Wed, 29 Jun 2011 17:53:19 +0200
+
+mirage (0.9.5.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Python 2.6 migration (Closes: #590361).
+  * Bump Stantards-Version to 3.9.1.
+  * Refresh halfSelected.patch and remove_gimp_remote.patch.
+  * Remove xdg_specification.patch, fixed upstream.
+
+ -- Xavier Oswald <xoswald@debian.org>  Thu, 12 Aug 2010 09:20:30 +0200
+
+mirage (0.9.3-5.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Update debian/control.
+    - Update python-dev of version from 2.5 to 2.6.
+    - Update XS-Python-Version from 2.5 to 2.6.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Fri, 06 Aug 2010 08:59:39 +0900
+
+mirage (0.9.3-5) unstable; urgency=low
+
+  * Fix dh_pysupport call, so only python-support controlled files are
+    installed (Closes: #566038)
+  * Fix half-selected images (Closes: #536285). Thanks to Evgeni Golov patch
+  * Provide a mirage menu item (Closes: #550023)
+  * Add XDG base directory specification support (Closes: #535816).
+    Thanks to Jakub Wilk <ubanus@users.sf.net> patch
+  * Add suggest gimp, imagemagick, menu (Closes: #535822)
+  * By default, Ctrl+E is bound to the gimp-remote-2.4 command, which is no
+    longer available in sid (Closes: #535817)
+    Thanks to Jakub Wilk <ubanus@users.sf.net> patch
+  * Switch to dpkg-source 3.0 (quilt) format
+  * Bump Standards-Version to 3.8.4
+
+ -- Xavier Oswald <xoswald@debian.org>  Wed, 10 Feb 2010 00:29:30 +0100
+
+mirage (0.9.3-4) unstable; urgency=low
+
+  * Remove forgotten DM flag
+  * Support python transition (Closes: #532827)
+  * Remove uploaders Mike Massonet (Thanks Mike for your work)
+
+ -- Xavier Oswald <xoswald@debian.org>  Fri, 12 Jun 2009 14:30:25 +0200
+
+mirage (0.9.3-3) unstable; urgency=low
+
+  * debian/control:
+    + Change my mail address
+    + Bump Standards-Version to 3.8.1
+    + Update debhelper to 7
+    + Remove DM flag
+  * Update debian/compat to 7
+  * Remove twice README, TODO and CHANGELOG
+  * Fix lintian warnings:
+    W: mirage: desktop-mimetype-without-update-call
+    /usr/share/applications/mirage.desktop
+    W: mirage source: debhelper-but-no-misc-depends mirage
+    I: mirage: copyright-with-old-dh-make-debian-copyright
+
+ -- Xavier Oswald <xoswald@debian.org>  Thu, 23 Apr 2009 00:43:54 +0200
+
+mirage (0.9.3-2) unstable; urgency=low
+
+  * Update debian policy to 3.8.0
+  * Add XS-Python-Version: current (Closes: #484701)
+  * Add dh_installchangelogs
+
+ -- Xavier Oswald <x.oswald@free.fr>  Mon, 16 Jun 2008 11:35:12 +0200
+
+mirage (0.9.3-1) unstable; urgency=low
+
+  [ Xavier Oswald ]
+  * Remove quilt from Build-Depends
+  * Remove leftover .pc/.version
+
+  [ Mike Massonnet ]
+  * New upstream release
+  * Bump Python version to 2.5
+  * Add DM-Upload-Allowed: flag
+  * Install upstream changelog file
+  * Drop patch for desktop entry file (fixed upstream)
+
+ -- Xavier Oswald <x.oswald@free.fr>  Thu, 05 Jun 2008 12:48:37 +0200
+
+mirage (0.9.2-2) unstable; urgency=low
+
+  [ Mike Massonnet ]
+  * Replace python-central against python-support and go for cdbs
+
+ -- Mike Massonnet (mmassonnet) <mmassonnet@gmail.com>  Wed, 12 Mar 2008 01:28:47 +0100
+
+mirage (0.9.2-1) unstable; urgency=low
+
+  [ Xavier Oswald ]
+  * New upstream release
+  * Update debian policy to 3.7.3
+  * Add watch file (Closes: #463174)
+  * Remove mirage.desktop patch, fixed upstream
+  * Add Homepage field in the control file
+
+  [ Mike Massonnet ]
+  * Refined the description
+  * Fixed manpage
+  * Add Build-dep: quilt to patch the errors reported by desktop-file-validate
+
+ -- Xavier Oswald <x.oswald@free.fr>  Wed, 20 Feb 2008 08:19:57 +0100
+
+mirage (0.9-1) unstable; urgency=low
+
+  * New upstream release
+  * Use desktop.patch to fix mirage.desktop policy
+  * Update copyright from GPLv2 to GPLv3
+  * EXIF tags saved after rotating an image (Closes: #415208)
+
+ -- Xavier Oswald <x.oswald@free.fr>  Mon, 29 Oct 2007 10:40:10 +0100
+
+mirage (0.8.3-1) unstable; urgency=low
+
+  * New upstream release
+  * Use "*" for the long description (Closes: #410664)
+
+ -- Xavier Oswald <x.oswald@free.fr>  Mon, 12 Feb 2007 20:46:28 +0100
+
+mirage (0.8.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #381523)
+  * Clean debian/rules
+  * Solve the lintian warning about the license
+
+ -- Xavier Oswald <x.oswald@free.fr>  Mon, 15 Jan 2007 13:56:20 +0100

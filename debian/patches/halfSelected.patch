@@ -1,0 +1,14 @@
+# mirage loads a cached image and does not update self.currimg_name.
+# Author: Evgeni Golov <evgeni@debian.org>
+Index: mirage-0.9.5.1/mirage.py
+===================================================================
+--- mirage-0.9.5.1.orig/mirage.py	2010-08-08 14:02:53.000000000 +0200
++++ mirage-0.9.5.1/mirage.py	2010-08-08 14:04:37.000000000 +0200
+@@ -4000,6 +4000,7 @@
+ 				self.last_image_action_was_smart_fit = False
+ 			elif self.open_mode == self.open_mode_1to1 or (self.open_mode == self.open_mode_last and self.last_mode == self.open_mode_1to1):
+ 				self.last_image_action_was_fit = False
++			self.currimg_name = str(self.image_list[self.curr_img_in_list])
+ 		else:
+ 			# Need to load the current image
+ 			self.currimg_pixbuf = None

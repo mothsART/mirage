@@ -1,0 +1,49 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: mirage
+Source: sourceforge.net/projects/mirageiv.berlios
+
+Files: *
+Copyright: 2007 Scott Horowitz <stonecrest@gmail.com>
+License: GPL-3+
+
+Files: po/*
+Copyright: 2006 Björn Martensen <bjoern.martensen@gmail.com>
+           2006 Isidro Arribas <cdhotfire@gmail.com>
+           2006 Roxana Kolosova <mavka@justos.org>
+           2006 Tomasz Dominikowski <dominikowski@gmail.com>
+           2007 Mike Massonnet <mmassonnet@gmail.com>
+           2007 Scott Horowitz <stonecrest@gmail.com>
+           2008 Danilo Martins <mawkee@gmail.com>
+           2008 Jayden Suen <no.sun@163.com>
+           2008 Lisovszki  <lisovszki@gmail.com>
+           2008 Petr Pisar <petr.pisar@atlas.cz>
+           2010 Pascal De Vuyst <pascal.devuyst@gmail.com>
+License: GPL-3+
+
+Files: debian/*
+Copyright: 2007-2010 Xavier Oswald <xoswald@debian.org>
+           2008      Mike Massonnet (mmassonnet) <mmassonnet@gmail.com>
+           2010      Nobuhiro Iwamatsu <iwamatsu@debian.org>
+           2011      Julien Cristau <jcristau@debian.org>
+           2014      Emanuele Rocca <ema@debian.org>
+           2014      Matthias Klose <doko@debian.org>
+           2015      Lucas de Castro Borges <lucascastroborges@gmail.com>
+           2015      Thomas Ross <th0m4sr0ss@gmail.com>
+License: GPL-3+
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".

@@ -1,0 +1,11 @@
+#! /bin/sh
+set -e
+
+#DEBHELPER#
+
+# Register our X Desktop Group Shared MIME-info Database info
+if [ -x "`which update-desktop-database 2>/dev/null`" ]; then
+  update-desktop-database
+fi
+
+exit 0

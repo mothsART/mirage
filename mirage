@@ -1,0 +1,34 @@
+#!/usr/bin/env python
+"""Mirage is a fast GTK+ Image Viewer
+"""
+
+__author__ = "Scott Horowitz"
+__email__ = "stonecrest@gmail.com"
+__license__ = """
+Mirage, a simple GTK+ Image Viewer
+Copyright 2007 Scott Horowitz <stonecrest@gmail.com>
+
+This file is part of Mirage.
+
+Mirage is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
+
+Mirage is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+"""
+
+import mirage
+
+if __name__ == "__main__":
+    app = mirage.Base()
+    try:
+        app.main()
+    except KeyboardInterrupt:
+        pass

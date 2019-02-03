@@ -1,0 +1,16 @@
+# By default, Ctrl+E is bound to the gimp-remote-2.4 command, which is no 
+# longer available in sid.
+# Author: Jakub Wilk <ubanus@users.sf.net>.
+Index: mirage-0.9.5.1/mirage.py
+===================================================================
+--- mirage-0.9.5.1.orig/mirage.py	2010-08-08 14:06:47.000000000 +0200
++++ mirage-0.9.5.1/mirage.py	2010-08-08 14:07:29.000000000 +0200
+@@ -157,7 +157,7 @@
+ 		self.preloading_images = True
+ 		self.action_names = ["Open in GIMP", "Create Thumbnail", "Create Thumbnails", "Move to Favorites"]
+ 		self.action_shortcuts = ["<Control>e", "<Alt>t", "<Control><Alt>t", "<Control><Alt>f"]
+-		self.action_commands = ["gimp-remote-2.4 %F", "convert %F -thumbnail 150x150 %Pt_%N.jpg", "convert %F -thumbnail 150x150 %Pt_%N.jpg", "mkdir -p ~/mirage-favs; mv %F ~/mirage-favs; [NEXT]"]
++		self.action_commands = ["gimp %F &", "convert %F -thumbnail 150x150 %Pt_%N.jpg", "convert %F -thumbnail 150x150 %Pt_%N.jpg", "mkdir -p ~/mirage-favs; mv %F ~/mirage-favs; [NEXT]"]
+ 		self.action_batch = [False, False, True, False]
+ 		self.onload_cmd = None
+ 		self.searching_for_images = False

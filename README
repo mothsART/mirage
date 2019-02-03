@@ -1,0 +1,29 @@
+Mirage, a fast and simple GTK+ Image Viewer
+Copyright 2007 Scott Horowitz <stonecrest@gmail.com>
+
+REQUIREMENTS:
+	(Required) PyGTK 2.12.0 or newer
+	(Required) GTK 2.10.0 or newer
+	(Optional) Gnome-python if you want Mirage's toolbar to follow your Gnome setting
+	(Building) GCC
+	(Building) python-dev and libX11-dev (on some distros)
+
+INSTALLATION:
+	Just run 'python setup.py install' as root.
+
+USAGE:
+	Simply run mirage to open a blank new window. Note that you can select multiple
+	files/folders from the 'Open' dialogs. 'mirage --help' is also available.
+
+FEATURES:
+	+ Supports png, jpg, svg, xpm, gif, bmp, tiff, and others
+	+ Cycling through multiple images (with preloading)
+	+ Thumbnail pane for quick navigation
+	+ Slideshow and fullscreen modes
+	+ Rotating, zooming, flipping, resizing, cropping
+	+ Saving, deleting, renaming
+	+ Screenshot support
+	+ Custom actions
+	+ Command-line access
+	+ Configurable interface
+	+ Available in many languages
